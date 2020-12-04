@@ -1,0 +1,17 @@
+.page {
+  font-family: 'Fjalla One', sans-serif;
+
+  /* prettier-ignore */
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../../images/background.jpg);
+  background-repeat: no-repeat repeat;
+  background-size: 100% auto;
+}
+
+@media (min-width: 1440px) {
+  .page {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
