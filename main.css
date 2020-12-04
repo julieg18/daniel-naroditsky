@@ -1,0 +1,4 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url(https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap);
+.page{font-family:Fjalla One,sans-serif;background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),url(/david-naroditsky/ae747ee0c5a8b3df8afd152d90500871.jpg);background-repeat:repeat-y;background-size:100% auto}@media (min-width:1440px){.page{max-width:1400px;margin:0 auto}}
+
