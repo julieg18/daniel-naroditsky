@@ -8,12 +8,12 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js',
-    publicPath: '/david-naroditsky/',
+    publicPath: '/daniel-naroditsky/',
   },
   devServer: {
     contentBase: './dist',
-    publicPath: '/david-naroditsky/',
-    openPage: 'david-naroditsky/',
+    publicPath: '/daniel-naroditsky/',
+    openPage: 'daniel-naroditsky/',
     open: true,
   },
   module: {

@@ -1,5 +1,5 @@
 {
-  "name": "david-naroditsky",
+  "name": "daniel-naroditsky",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julieg18/david-naroditsky.git"
+    "url": "git+https://github.com/julieg18/daniel-naroditsky.git"
   },
   "keywords": [],
   "author": "Julie Galvan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/julieg18/david-naroditsky/issues"
+    "url": "https://github.com/julieg18/daniel-naroditsky/issues"
   },
-  "homepage": "https://github.com/julieg18/david-naroditsky#readme",
+  "homepage": "https://github.com/julieg18/daniel-naroditsky#readme",
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
