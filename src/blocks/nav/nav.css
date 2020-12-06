@@ -1,0 +1,19 @@
+@import url(./__logo/nav__logo.css);
+@import url(./__menu-btn/nav__menu-btn.css);
+@import url(./__items/nav__items.css);
+@import url(./__exit-btn/nav__exit-btn.css);
+@import url(./__items/_show/nav__items_show.css);
+@import url(./__items-list/nav__items-list.css);
+@import url(./__link/nav__link.css);
+@import url(./__link/_selected/nav__link_selected.css);
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #100e0e;
+  position: sticky;
+  top: 0;
+  right: 0;
+  padding: 0 16px;
+}

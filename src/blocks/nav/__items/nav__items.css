@@ -1,0 +1,18 @@
+.nav__items {
+  box-sizing: border-box;
+  position: fixed;
+  background-color: #100e0e;
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  transition: width 0.6s ease-in-out;
+}
+
+@media (min-width: 1024px) {
+  .nav__items {
+    position: static;
+    width: initial;
+    height: initial;
+  }
+}

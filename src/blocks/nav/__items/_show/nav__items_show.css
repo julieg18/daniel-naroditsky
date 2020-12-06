@@ -1,0 +1,17 @@
+.nav__items_show {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .nav__items_show {
+    width: 325px;
+    height: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav__items_show {
+    width: auto;
+    height: auto;
+  }
+}

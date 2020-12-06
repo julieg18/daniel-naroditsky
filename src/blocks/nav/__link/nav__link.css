@@ -1,0 +1,18 @@
+.nav__link {
+  margin: 0 0 16px 16px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+.nav__link:hover {
+  color: #a7060a;
+}
+
+@media (min-width: 1024px) {
+  .nav__link {
+    margin: 0 0 0 16px;
+  }
+}
