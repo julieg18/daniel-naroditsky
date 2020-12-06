@@ -1,7 +1,7 @@
 .nav__items {
   box-sizing: border-box;
   position: fixed;
-  background-color: #100e0e;
+  background-color: var(--main-color);
   width: 0;
   height: 100%;
   top: 0;

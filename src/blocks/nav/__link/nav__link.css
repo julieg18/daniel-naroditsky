@@ -8,7 +8,7 @@
 }
 
 .nav__link:hover {
-  color: #a7060a;
+  color: var(--secondary-color);
 }
 
 @media (min-width: 1024px) {

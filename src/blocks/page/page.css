@@ -1,4 +1,7 @@
 .page {
+  --main-color: #100e0e;
+  --secondary-color: #a7060a;
+
   font-family: 'Fjalla One', sans-serif;
 
   /* prettier-ignore */
