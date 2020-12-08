@@ -10,6 +10,7 @@
     url(../../images/background.jpg);
   background-repeat: no-repeat repeat;
   background-size: 100% auto;
+  color: #fff;
 }
 
 @media (min-width: 1440px) {
