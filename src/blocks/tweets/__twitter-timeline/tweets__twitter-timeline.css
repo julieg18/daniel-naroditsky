@@ -1,0 +1,31 @@
+.tweets__twitter-timeline {
+  background-color: var(--main-color);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px 0;
+  box-shadow: 0 0 10px 5px #000;
+  margin-top: 16px;
+  scrollbar-width: thin;
+  scrollbar-color: #fff var(--main-color);
+}
+
+.tweets__twitter-timeline::-webkit-scrollbar {
+  width: 15px;
+}
+
+.tweets__twitter-timeline::-webkit-scrollbar-track {
+  background: var(--main-color);
+}
+
+.tweets__twitter-timeline::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border: 5px solid var(--main-color);
+}
+
+@media (min-width: 768px) {
+  .tweets__twitter-timeline {
+    height: 500px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+}

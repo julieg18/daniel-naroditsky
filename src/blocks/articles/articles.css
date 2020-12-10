@@ -1,0 +1,15 @@
+@import url(./__list/articles__list.css);
+@import url(./__article-container/articles__article-container.css);
+@import url(./__article/articles__article.css);
+
+.articles {
+  padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+  .articles {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 30px 0 15px;
+  }
+}

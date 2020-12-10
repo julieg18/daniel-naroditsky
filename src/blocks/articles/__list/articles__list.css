@@ -1,0 +1,5 @@
+.articles__list {
+  padding: 0;
+  margin: 16px 0 0 30px;
+  list-style: square;
+}

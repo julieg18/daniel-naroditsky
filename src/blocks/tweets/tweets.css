@@ -1,0 +1,13 @@
+@import url(./__twitter-timeline/tweets__twitter-timeline.css);
+
+.tweets {
+  padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+  .tweets {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0 15px 0 30px;
+  }
+}
