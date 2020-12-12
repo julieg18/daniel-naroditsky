@@ -10,7 +10,7 @@
 }
 
 .tweets__twitter-timeline::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 .tweets__twitter-timeline::-webkit-scrollbar-track {
@@ -19,13 +19,20 @@
 
 .tweets__twitter-timeline::-webkit-scrollbar-thumb {
   background-color: #fff;
-  border: 5px solid var(--main-color);
 }
 
 @media (min-width: 768px) {
   .tweets__twitter-timeline {
     height: 500px;
     overflow-y: scroll;
-    padding: 10px;
+    padding: 0;
+    border: 10px solid var(--main-color);
+  }
+}
+
+@media (min-width: 1280px) {
+  .tweets__twitter-timeline {
+    border: 15px solid var(--main-color);
+    margin-top: 30px;
   }
 }

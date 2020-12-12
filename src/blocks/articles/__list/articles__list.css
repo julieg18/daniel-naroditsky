@@ -3,3 +3,9 @@
   margin: 16px 0 0 30px;
   list-style: square;
 }
+
+@media (min-width: 1280px) {
+  .articles__list {
+    margin: 30px 0 0 30px;
+  }
+}

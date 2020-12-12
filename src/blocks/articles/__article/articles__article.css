@@ -2,3 +2,9 @@
   color: inherit;
   font-size: 1.2rem;
 }
+
+@media (min-width: 1280px) {
+  .articles__article {
+    font-size: 1.4rem;
+  }
+}
