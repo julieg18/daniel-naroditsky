@@ -1,16 +1,12 @@
+@import url(./__background/page__background.css);
+
 .page {
   --main-color: #100e0e;
   --secondary-color: #5bc0eb;
 
   font-family: 'Fjalla One', sans-serif;
-
-  /* prettier-ignore */
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../../images/background.jpg);
-  background-repeat: no-repeat repeat;
-  background-size: 100% auto;
   color: #fff;
+  background-color: rgba(16, 14, 14, 0.9);
 }
 
 @media (min-width: 1440px) {
