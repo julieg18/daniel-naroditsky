@@ -1,0 +1,25 @@
+.videos__list-item {
+  margin: 16px 0 0;
+}
+
+@media (min-width: 425px) {
+  .videos__list-item {
+    margin: 25px 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .videos__list-item {
+    margin: 0 0 50px;
+  }
+
+  .videos__list-item:first-of-type {
+    margin: 20px 0 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .videos__list-item:first-of-type {
+    margin: 30px 0 50px;
+  }
+}
