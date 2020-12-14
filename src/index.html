@@ -30,13 +30,20 @@
         </div>
       </nav>
       <header class="header">
-        <img
-          class="header__img"
-          src="./images/header.jpg"
-          alt='A chessboard with
-        a image of Daniel Naroditsky in the center, with the words, "Daniel
-        Naroditsky Grand Master" across it'
-        />
+        <picture>
+          <source
+            srcset="./images/header-desktop.jpg"
+            media="(min-width: 1400px)"
+          />
+          <source srcset="./images/header.jpg" media="(min-width: 768px)" />
+          <img
+            class="header__img"
+            src="./images/header-phone.jpg"
+            alt='A chessboard with
+          a image of Daniel Naroditsky in the center, with the words, "Daniel
+          Naroditsky Grand Master" across it'
+          />
+        </picture>
         <div class="header__img-border"></div>
       </header>
       <main>
