@@ -3,11 +3,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  entry: { main: './src/scripts/index.js' },
   mode: 'development',
+  entry: {
+    index: './src/scripts/index.js',
+    merch: './src/scripts/merch.js',
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
+    filename: '[name].js',
     publicPath: '/daniel-naroditsky/',
   },
   devServer: {
@@ -49,6 +52,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'merch.html',
+      template: './src/merch.html',
+      chunks: ['merch'],
     }),
     new MiniCssExtractPlugin(),
   ],
