@@ -1,0 +1,32 @@
+.merch__see-more-link {
+  color: #fff;
+  margin: 16px 0 0 auto;
+  font-size: 1.2rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.merch__see-more-link:hover {
+  color: var(--secondary-color);
+}
+
+.merch__see-more-link .la-arrow-right {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .merch__see-more-link {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .merch__see-more-link {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .merch__see-more-link {
+    font-size: 2rem;
+  }
+}

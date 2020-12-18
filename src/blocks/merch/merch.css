@@ -1,0 +1,27 @@
+@import url(./__list/merch__list.css);
+@import url(./__img/merch__img.css);
+@import url(./__see-more-link/merch__see-more-link.css);
+
+.merch {
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .merch {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .merch {
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .merch {
+    padding: 0 100px;
+  }
+}

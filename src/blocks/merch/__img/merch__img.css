@@ -1,0 +1,34 @@
+.merch__img {
+  width: 100%;
+  height: calc(100vw - 32px);
+  object-fit: cover;
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .merch__img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .merch__img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .merch__img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .merch__img {
+    width: 275px;
+    height: 275px;
+  }
+}
