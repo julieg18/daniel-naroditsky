@@ -1,0 +1,25 @@
+@import url(./__links/contact__links.css);
+@import url(./__link/contact__link.css);
+@import url(./__link-icon/contact__link-icon.css);
+
+.contact {
+  padding: 0 16px 30px;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    padding: 0 30px 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contact {
+    padding: 0 50px 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact {
+    padding: 0 100px 100px;
+  }
+}

@@ -1,0 +1,10 @@
+.contact__link-icon {
+  font-size: 1.8rem;
+  margin-right: 5px;
+}
+
+@media (min-width: 1024px) {
+  .contact__link-icon {
+    font-size: 2rem;
+  }
+}
