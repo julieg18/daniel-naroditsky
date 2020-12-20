@@ -1,5 +1,9 @@
 @import url(./__background/page__background.css);
 
+html {
+  scroll-behavior: smooth;
+}
+
 .page {
   --main-color: #100e0e;
   --secondary-color: #5bc0eb;
