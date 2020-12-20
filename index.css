@@ -1,14 +1,14 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 @import url(https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap);
 .page__background{background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),url(/daniel-naroditsky/ae747ee0c5a8b3df8afd152d90500871.jpg);background-repeat:repeat-y;background-size:100% auto}
-.page{--main-color:#100e0e;--secondary-color:#5bc0eb;font-family:Fjalla One,sans-serif;color:#fff;background-color:rgba(16,14,14,.9)}@media (min-width:1440px){.page{max-width:1440px;margin:0 auto}}
+html{scroll-behavior:smooth}.page{--main-color:#100e0e;--secondary-color:#5bc0eb;font-family:Fjalla One,sans-serif;color:#fff;background-color:rgba(16,14,14,.9)}@media (min-width:1440px){.page{max-width:1440px;margin:0 auto}}
 .nav__logo{background-image:url(/daniel-naroditsky/af88eb29534d3c9183f5692e895f5f51.png);height:40px;width:30px;background-size:contain;margin:10px 0;background-repeat:no-repeat}
-.nav__menu-btn{width:40px;height:40px;background-color:transparent;color:#fff;border:none;font-size:40px;padding:0;display:flex;justify-content:center;align-items:center}.nav__menu-btn:hover{cursor:pointer}@media (min-width:1024px){.nav__menu-btn{display:none}}
-.nav__items{box-sizing:border-box;position:fixed;background-color:var(--main-color);width:0;height:100%;top:0;right:0;transition:width .6s ease-in-out}@media (min-width:768px){.nav__items{height:auto}}@media (min-width:1024px){.nav__items{position:static;width:auto}}
-.nav__exit-btn{width:40px;height:40px;background-color:transparent;color:#fff;border:none;font-size:40px;padding:0;display:flex;justify-content:center;align-items:center;margin:10px 16px 0 auto}.nav__exit-btn:hover{cursor:pointer}@media (min-width:1024px){.nav__exit-btn{display:none}}
-.nav__items_show{width:100%}@media (min-width:768px){.nav__items_show{width:325px;height:auto}}@media (min-width:1024px){.nav__items_show{width:auto}}
-.nav__items-list{color:#fff;list-style:none;margin:0;padding:0}@media (min-width:1024px){.nav__items-list{display:flex;align-items:center}}
-.nav__link{margin:0 0 16px 16px;text-decoration:none;color:#fff;transition:color .3s ease-in-out;font-size:1.2rem;display:inline-block}.nav__link:hover{color:var(--secondary-color)}@media (min-width:1024px){.nav__link{margin:0 0 0 16px}}
+.nav__btn{width:40px;height:40px;background-color:transparent;color:#fff;border:none;font-size:40px;text-decoration:none;padding:0;display:flex;justify-content:center;align-items:center;transition:color .2s ease-in-out}.nav__btn:hover{cursor:pointer;color:var(--secondary-color)}@media (min-width:1024px){.nav__btn{display:none}.nav_location_merch .nav__btn{display:flex}}
+.nav__btn_icon_exit{margin:10px 16px 0 auto}
+.nav__items{box-sizing:border-box;position:fixed;background-color:var(--main-color);width:0;height:100%;top:0;right:-5px;transition:width .6s ease-in-out}@media (min-width:768px){.nav__items{height:auto}}@media (min-width:1024px){.nav__items{position:static;width:auto}.nav_location_merch .nav__items{width:0;position:fixed}}
+.nav__items_show,.nav_location_merch .nav__items_show{width:100%;right:0}@media (min-width:768px){.nav__items_show,.nav_location_merch .nav__items_show{width:325px;height:auto}}@media (min-width:1024px){.nav__items_show{width:auto}}
+.nav__items-list{color:#fff;list-style:none;margin:0;padding:0}@media (min-width:1024px){.nav__items-list{display:flex;align-items:center}.nav_location_merch .nav__items-list{display:block}}
+.nav__link{margin:0 0 16px 16px;text-decoration:none;color:#fff;transition:color .3s ease-in-out;font-size:1.2rem;display:inline-block}.nav__link:hover{color:var(--secondary-color)}@media (min-width:1024px){.nav__link{margin:0 0 0 16px}.nav_location_merch .nav__link{margin:0 0 16px 16px}}
 .nav__link_selected{color:var(--secondary-color)}
 .nav{display:flex;justify-content:space-between;align-items:center;background-color:var(--main-color);position:-webkit-sticky;position:sticky;top:0;right:0;padding:0 16px;z-index:1}
 .header__img{width:100%}

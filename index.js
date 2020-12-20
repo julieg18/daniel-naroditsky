@@ -19,7 +19,7 @@
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pages_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/index.css */ \"./src/pages/index.css\");\n\nconsole.log('this is the index page');\n\n//# sourceURL=webpack://daniel-naroditsky/./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pages_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/index.css */ \"./src/pages/index.css\");\n\nvar menuButton = document.querySelector('.nav__btn_icon_menu');\nvar exitButton = document.querySelector('.nav__btn_icon_exit');\nvar navItems = document.querySelector('.nav__items');\nmenuButton.addEventListener('click', function (e) {\n  navItems.classList.toggle('nav__items_show');\n});\nexitButton.addEventListener('click', function () {\n  navItems.classList.toggle('nav__items_show');\n});\n\n//# sourceURL=webpack://daniel-naroditsky/./src/scripts/index.js?");
 
 /***/ }),
 
