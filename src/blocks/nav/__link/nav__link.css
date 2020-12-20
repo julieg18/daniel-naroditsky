@@ -15,4 +15,8 @@
   .nav__link {
     margin: 0 0 0 16px;
   }
+
+  .nav_location_merch .nav__link {
+    margin: 0 0 16px 16px;
+  }
 }

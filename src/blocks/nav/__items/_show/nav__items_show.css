@@ -1,9 +1,12 @@
-.nav__items_show {
+.nav__items_show,
+.nav_location_merch .nav__items_show {
   width: 100%;
+  right: 0;
 }
 
 @media (min-width: 768px) {
-  .nav__items_show {
+  .nav__items_show,
+  .nav_location_merch .nav__items_show {
     width: 325px;
     height: auto;
   }

@@ -1,22 +1,29 @@
-.nav__menu-btn {
+.nav__btn {
   width: 40px;
   height: 40px;
   background-color: rgba(0, 0, 0, 0);
   color: #fff;
   border: none;
   font-size: 40px;
+  text-decoration: none;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: color 0.2s ease-in-out;
 }
 
-.nav__menu-btn:hover {
+.nav__btn:hover {
   cursor: pointer;
+  color: var(--secondary-color);
 }
 
 @media (min-width: 1024px) {
-  .nav__menu-btn {
+  .nav__btn {
     display: none;
+  }
+
+  .nav_location_merch .nav__btn {
+    display: flex;
   }
 }
