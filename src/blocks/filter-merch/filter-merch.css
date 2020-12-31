@@ -1,0 +1,20 @@
+@import url(./__search/filter-merch__search.css);
+@import url(./__search-icon/filter-merch__search-icon.css);
+@import url(./__search-input/filter-merch__search-input.css);
+@import url(./__categories/filter-merch__categories.css);
+@import url(./__category-btn/filter-merch__category-btn.css);
+
+.filter-merch {
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .filter-merch {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,30 @@
+.filter-merch__categories {
+  list-style: none;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 16px 0 0;
+  padding: 0 0 5px;
+  display: flex;
+  overflow: auto;
+  position: relative;
+  scrollbar-width: thin;
+  scrollbar-color: #fff rgba(243, 153, 153, 0);
+}
+
+.filter-merch__categories::-webkit-scrollbar {
+  height: 5px;
+}
+
+.filter-merch__categories::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+.filter-merch__categories::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .filter-merch__categories {
+    margin: 0;
+  }
+}

@@ -1,0 +1,19 @@
+.filter-merch__search-icon {
+  background-color: #fff;
+  color: #000;
+  width: 40px;
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  padding-right: 1px;
+  align-items: center;
+  justify-content: center;
+  transform: scaleX(-1) translateX(-1px);
+}
+
+@media (min-width: 768px) {
+  .filter-merch__search-icon {
+    width: 32px;
+    font-size: 25px;
+  }
+}

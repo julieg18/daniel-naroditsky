@@ -1,0 +1,16 @@
+.filter-merch__search {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .filter-merch__search {
+    width: 450px;
+    margin: 0 0 0 100px;
+    height: 32px;
+  }
+}

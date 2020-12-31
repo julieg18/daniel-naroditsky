@@ -1,0 +1,25 @@
+.filter-merch__search-input {
+  height: 100%;
+  border: none;
+  width: calc(100% - 30px);
+  padding: 1px 10px;
+}
+
+.filter-merch__search-input::-webkit-search-cancel-button {
+  appearance: none;
+  background-image: url(../../../images/line-awesome-times-circle.svg);
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+.filter-merch__search-input::-webkit-search-cancel-button:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .filter-merch__search-input::-webkit-search-cancel-button {
+    width: 20px;
+    height: 20px;
+  }
+}
