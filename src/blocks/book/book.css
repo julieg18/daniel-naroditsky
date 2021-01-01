@@ -1,0 +1,42 @@
+@import url(./__img/book__img.css);
+@import url(./__heading/book__heading.css);
+@import url(./__description/book__description.css);
+
+.book {
+  margin: 30px 0 0;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 7.5px));
+  grid-template-rows: min-content 1fr;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.book:first-of-type {
+  margin: 15px 0 0;
+}
+
+@media (min-width: 768px) {
+  .book {
+    margin: 0;
+  }
+
+  .book:first-of-type {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .book {
+    height: 275px;
+    column-gap: 20px;
+    grid-template-columns: repeat(2, calc(50% - 10px));
+  }
+}
+
+@media (min-width: 1280px) {
+  .book {
+    height: 300px;
+    row-gap: 30px;
+  }
+}

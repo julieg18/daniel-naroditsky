@@ -1,4 +1,4 @@
-.product__description {
+.book__description {
   margin: 0;
   font-size: 0.9rem;
   overflow-y: auto;
@@ -6,26 +6,26 @@
   scrollbar-color: #fff rgba(243, 153, 153, 0);
 }
 
-.product__description::-webkit-scrollbar {
+.book__description::-webkit-scrollbar {
   width: 5px;
 }
 
-.product__description::-webkit-scrollbar-track {
+.book__description::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0);
 }
 
-.product__description::-webkit-scrollbar-thumb {
+.book__description::-webkit-scrollbar-thumb {
   background-color: #fff;
 }
 
 @media (min-width: 1024px) {
-  .product__description {
+  .book__description {
     font-size: 1rem;
   }
 }
 
 @media (min-width: 1280px) {
-  .product__description {
+  .book__description {
     font-size: 1.2rem;
   }
 }
