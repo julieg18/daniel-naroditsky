@@ -1,0 +1,5 @@
+.product__price {
+  margin: 16px 0 0;
+  width: calc(50% - 16px);
+  font-size: 1.2rem;
+}

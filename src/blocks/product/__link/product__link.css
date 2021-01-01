@@ -1,0 +1,10 @@
+.product__link {
+  margin: 16px 0 0;
+  width: calc(50% - 16px);
+  color: #fff;
+  transition: color ease-in-out 0.2s;
+}
+
+.product__link:hover {
+  color: var(--secondary-color);
+}

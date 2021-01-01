@@ -1,31 +1,5 @@
 .product__heading {
-  text-decoration: underline;
-  transition: color 0.2s ease-in-out;
-  height: calc(1rem * 1.15 * 4);
-  overflow: hidden;
-  color: #fff;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  text-overflow: -o-ellipsis-lastline;
-}
-
-.product__heading:hover {
-  color: var(--secondary-color);
-  cursor: pointer;
-}
-
-@media (min-width: 1024px) {
-  .product__heading {
-    font-size: 1.2rem;
-    height: calc(1.2rem * 1.15 * 4);
-  }
-}
-
-@media (min-width: 1280px) {
-  .product__heading {
-    font-size: 1.5rem;
-    height: calc(1.5rem * 1.15 * 3);
-    -webkit-line-clamp: 3;
-  }
+  margin: 0;
+  font-size: 1.5rem;
+  width: calc(50% - 16px);
 }

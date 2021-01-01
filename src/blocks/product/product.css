@@ -1,42 +1,18 @@
 @import url(./__img/product__img.css);
 @import url(./__heading/product__heading.css);
-@import url(./__description/product__description.css);
+@import url(./__price/product__price.css);
+@import url(./__link/product__link.css);
 
 .product {
-  margin: 30px 0 0;
+  display: flex;
   height: 200px;
-  display: grid;
-  grid-template-columns: repeat(2, calc(50% - 7.5px));
-  grid-template-rows: min-content 1fr;
-  column-gap: 15px;
-  row-gap: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 16px 0 0;
 }
 
-.product:first-of-type {
-  margin: 15px 0 0;
-}
-
-@media (min-width: 768px) {
+@media (min-width: 425px) {
   .product {
-    margin: 0;
-  }
-
-  .product:first-of-type {
-    margin: 0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .product {
-    height: 275px;
-    column-gap: 20px;
-    grid-template-columns: repeat(2, calc(50% - 10px));
-  }
-}
-
-@media (min-width: 1280px) {
-  .product {
-    height: 300px;
-    row-gap: 30px;
+    width: 300px;
   }
 }
