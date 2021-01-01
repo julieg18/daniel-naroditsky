@@ -5,4 +5,5 @@
     url(../../../images/background.jpg);
   background-repeat: no-repeat repeat;
   background-size: 100% auto;
+  min-height: 100vh;
 }
