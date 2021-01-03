@@ -7,8 +7,26 @@
   display: inline-block;
 }
 
+.nav__link[href$='#tweets-articles'] {
+  display: none;
+}
+
 .nav__link:hover {
   color: var(--secondary-color);
+}
+
+@media (min-width: 768px) {
+  .nav__link[href$='#tweets-articles'] {
+    display: inline-block;
+  }
+
+  .nav__link[href$='#tweets'] {
+    display: none;
+  }
+
+  .nav__link[href$='#articles'] {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
