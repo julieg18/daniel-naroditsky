@@ -1,7 +1,9 @@
+@import url(./__loader/video__loader.css);
 @import url(./__ytplayer/video__ytplayer.css);
 
 .video {
   border: 3px solid var(--secondary-color);
+  background-color: var(--main-color);
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
