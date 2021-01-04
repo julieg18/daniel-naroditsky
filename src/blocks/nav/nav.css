@@ -5,7 +5,6 @@
 @import url(./__items/_show/nav__items_show.css);
 @import url(./__items-list/nav__items-list.css);
 @import url(./__link/nav__link.css);
-@import url(./__link/_selected/nav__link_selected.css);
 
 .nav {
   display: flex;
