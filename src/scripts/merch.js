@@ -1,3 +1,2 @@
-import '../pages/index.css';
-
-console.log('this is the merch page');
+import './blocks/nav';
+import '../pages/merch.css';
