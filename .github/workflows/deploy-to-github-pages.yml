@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+env:
+  YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+  YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -24,5 +27,3 @@ jobs:
           BRANCH: gh-pages
           FOLDER: dist
           CLEAN: true
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
