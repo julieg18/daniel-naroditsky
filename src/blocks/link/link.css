@@ -1,0 +1,9 @@
+.link {
+  color: #fff;
+  text-decoration: underline;
+  transition: color ease-in-out 0.2s;
+}
+
+.link:hover {
+  color: var(--secondary-color);
+}

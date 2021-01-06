@@ -1,4 +1,5 @@
 @import url(./__loader/video__loader.css);
+@import url(./__err-message/video__err-message.css);
 @import url(./__ytplayer/video__ytplayer.css);
 
 .video {
