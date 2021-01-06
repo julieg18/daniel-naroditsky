@@ -11,28 +11,24 @@ function sendGetRequest({ url }) {
 
 function getYoutubeChannelsNewestVideos() {
   const url = `https://www.googleapis.com/youtube/v3/search?key=${process.env.YOUTUBE_API_KEY}&channelId=${process.env.YOUTUBE_CHANNEL_ID}&part=snippet,id&maxResults=5&order=date`;
-  return sendGetRequest({ url })
-    .then(({ items }) => {
-      const videoIds = items.map(({ id: { videoId } }) => videoId);
-      return videoIds;
-    })
-    .catch((err) => {
-      // eslint-disable-next-line no-console
-      console.log(err);
-    });
+  return sendGetRequest({ url }).then(({ items }) => {
+    const videoIds = items.map(({ id: { videoId } }) => videoId);
+    return videoIds;
+  });
 }
 
 function getYoutubeChannelsMostPopularVideos() {
   const url = `https://www.googleapis.com/youtube/v3/search?key=${process.env.YOUTUBE_API_KEY}&channelId=${process.env.YOUTUBE_CHANNEL_ID}&part=snippet,id&maxResults=3&order=viewCount`;
-  return sendGetRequest({ url })
-    .then(({ items }) => {
-      const videoIds = items.map(({ id: { videoId } }) => videoId);
-      return videoIds;
-    })
-    .catch((err) => {
-      // eslint-disable-next-line no-console
-      console.log(err);
-    });
+  return sendGetRequest({ url }).then(({ items }) => {
+    const videoIds = items.map(({ id: { videoId } }) => videoId);
+    return videoIds;
+  });
+}
+
+function addErrMessageToVideos(videos) {
+  videos.forEach((video) => {
+    video.classList.add('video_failed');
+  });
 }
 
 function addYoutubeVideoToList({ list, videoId, index }) {
@@ -45,14 +41,26 @@ function addYoutubeVideoToList({ list, videoId, index }) {
   list[index].append(video);
 }
 
-getYoutubeChannelsNewestVideos().then((videoIds) => {
-  videoIds.forEach((videoId, i) => {
-    addYoutubeVideoToList({ list: videosNewVideos, videoId, index: i });
+getYoutubeChannelsNewestVideos()
+  .then((videoIds) => {
+    videoIds.forEach((videoId, i) => {
+      addYoutubeVideoToList({ list: videosNewVideos, videoId, index: i });
+    });
+  })
+  .catch((err) => {
+    // eslint-disable-next-line no-console
+    console.log(err.message);
+    addErrMessageToVideos(videosNewVideos);
   });
-});
 
-getYoutubeChannelsMostPopularVideos().then((videoIds) => {
-  videoIds.forEach((videoId, i) => {
-    addYoutubeVideoToList({ list: videosPopularVideos, videoId, index: i });
+getYoutubeChannelsMostPopularVideos()
+  .then((videoIds) => {
+    videoIds.forEach((videoId, i) => {
+      addYoutubeVideoToList({ list: videosPopularVideos, videoId, index: i });
+    });
+  })
+  .catch((err) => {
+    // eslint-disable-next-line no-console
+    console.log(err.message);
+    addErrMessageToVideos(videosPopularVideos);
   });
-});

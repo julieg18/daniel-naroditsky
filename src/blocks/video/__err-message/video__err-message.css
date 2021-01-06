@@ -1,0 +1,15 @@
+.video__err-message {
+  display: none;
+  margin: 50px 50px 0;
+  text-align: center;
+}
+
+.video_failed .video__err-message {
+  display: inline-block;
+}
+
+@media (min-width: 1280px) {
+  .video__err-message {
+    margin: 100px 100px 0;
+  }
+}
