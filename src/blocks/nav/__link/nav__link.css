@@ -2,17 +2,12 @@
   margin: 0 0 16px 16px;
   text-decoration: none;
   color: #fff;
-  transition: color 0.3s ease-in-out;
   font-size: 1.2rem;
   display: inline-block;
 }
 
 .nav__link[href$='#tweets-articles'] {
   display: none;
-}
-
-.nav__link:hover {
-  color: var(--secondary-color);
 }
 
 @media (min-width: 768px) {

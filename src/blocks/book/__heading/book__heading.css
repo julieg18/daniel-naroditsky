@@ -3,16 +3,10 @@
   transition: color 0.2s ease-in-out;
   height: calc(1rem * 1.15 * 4);
   overflow: hidden;
-  color: #fff;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   text-overflow: -o-ellipsis-lastline;
-}
-
-.book__heading:hover {
-  color: var(--secondary-color);
-  cursor: pointer;
 }
 
 @media (min-width: 1024px) {

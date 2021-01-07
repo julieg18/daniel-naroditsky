@@ -2,11 +2,7 @@
   color: #fff;
   margin: 16px 0 0 auto;
   font-size: 1.2rem;
-  transition: color 0.2s ease-in-out;
-}
-
-.merch__see-more-link:hover {
-  color: var(--secondary-color);
+  transition: color 0.2s ease-i-out;
 }
 
 .merch__see-more-link .la-arrow-right {

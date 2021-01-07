@@ -1,4 +1,5 @@
 @import url(./all.css);
+@import url(../blocks/link/link.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/filter-merch/filter-merch.css);
 @import url(../blocks/visually-hidden-el/visually-hidden-el.css);
