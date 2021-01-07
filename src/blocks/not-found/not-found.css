@@ -1,0 +1,6 @@
+@import url(./__heading-num/not-found__heading-num.css);
+@import url(./__heading-text/not-found__heading-text.css);
+
+.not-found {
+  text-align: center;
+}

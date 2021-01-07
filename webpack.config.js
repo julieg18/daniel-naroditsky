@@ -8,6 +8,7 @@ module.exports = {
   entry: {
     index: './src/scripts/index.js',
     merch: './src/scripts/merch.js',
+    404: './src/scripts/404.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -60,6 +61,11 @@ module.exports = {
       filename: 'merch.html',
       template: './src/merch.html',
       chunks: ['merch'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: '404.html',
+      template: './src/404.html',
+      chunks: ['404'],
     }),
     new MiniCssExtractPlugin(),
   ],
