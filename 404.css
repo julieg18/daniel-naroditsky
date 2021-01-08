@@ -1,0 +1,13 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+@import url(https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap);
+.page__background{background:linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.25)),url(/daniel-naroditsky/ae747ee0c5a8b3df8afd152d90500871.jpg);background-repeat:repeat-y;background-size:100% auto;min-height:100vh}
+html{scroll-behavior:smooth}.page{--main-color:#100e0e;--secondary-color:#5bc0eb;font-family:Fjalla One,sans-serif;color:#fff;background-color:rgba(16,14,14,.9)}@media (min-width:1440px){.page{max-width:1440px;margin:0 auto}}
+
+.link{color:#fff;text-decoration:underline;transition:color .2s ease-in-out}.link:hover{cursor:pointer;color:var(--secondary-color)}
+.section{padding:0 16px}@media (min-width:768px){.section{padding:0 30px}}@media (min-width:1280px){.section{padding:0 50px}}@media (min-width:1440px){.section{padding:0 100px}}
+.section-heading{font-size:2rem;line-height:2.2rem;margin:0;padding:50px 0 0;width:100%}@media (min-width:768px){.section-heading{padding:75px 0 0;font-size:2.5rem;line-height:2.8rem}}@media (min-width:1280px){.section-heading{padding:100px 0 0;font-size:3.5rem;line-height:3.8rem}}
+.paragraph{font-size:1.1rem;line-height:1.15;margin:16px 0 0}
+.not-found__heading-num{font-size:10rem;line-height:1.15;display:block}
+.not-found__heading-text{display:block}
+.not-found{text-align:center}
+
