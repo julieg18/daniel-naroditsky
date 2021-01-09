@@ -7,30 +7,13 @@
 @import url(./__list/_group/videos__list_group_popular.css);
 @import url(./__list-item/videos__list-item.css);
 
-.videos {
-  padding: 0 16px;
-}
-
 @media (min-width: 768px) {
   .videos {
-    padding: 0 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
     grid-template-areas:
       'section-heading section-heading'
       'list-heading-new list-heading-popular' 'list-new list-popular' 'list-new list-popular';
-  }
-}
-
-@media (min-width: 1280px) {
-  .videos {
-    padding: 0 50px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .videos {
-    padding: 0 100px;
   }
 }
