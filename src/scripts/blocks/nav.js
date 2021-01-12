@@ -43,7 +43,7 @@ function closeNavMenu() {
 
 function handleScreenChange() {
   if (!navItems.classList.contains('nav__items_show')) {
-    changeNavItemsTabIndex(document.body.offsetWidth < 1280 ? -1 : 0);
+    changeNavItemsTabIndex(document.body.offsetWidth < 1024 ? -1 : 0);
   }
 }
 
