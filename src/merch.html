@@ -18,14 +18,23 @@
     <div class="page__background">
       <nav class="nav nav_location_merch">
         <a class="nav__btn" href="./index.html">
+          <span class="visually-hidden-el">Go back to home page</span>
           <i class="las la-arrow-left"></i>
         </a>
         <div class="nav__logo"></div>
-        <button class="nav__btn nav__btn_icon_menu">
+        <button
+          data-message="Open navbar menu"
+          class="nav__btn nav__btn_icon_menu"
+        >
+          <span class="visually-hidden-el">Open navbar menu</span>
           <i class="las la-bars"></i>
         </button>
         <div class="nav__items">
-          <button class="nav__btn nav__btn_icon_exit">
+          <button
+            data-message="Close navbar menu"
+            class="nav__btn nav__btn_icon_exit"
+          >
+            <span class="visually-hidden-el">Close navbar menu</span>
             <i class="las la-times"></i>
           </button>
           <ul class="nav__items-list">

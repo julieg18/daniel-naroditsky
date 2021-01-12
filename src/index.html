@@ -27,16 +27,25 @@
     <div class="page__background">
       <nav class="nav">
         <div class="nav__logo"></div>
-        <button class="nav__btn nav__btn_icon_menu">
+        <button
+          data-message="Open navbar menu"
+          class="nav__btn nav__btn_icon_menu"
+          autofocus
+        >
+          <span class="visually-hidden-el">Open navbar menu</span>
           <i class="las la-bars"></i>
         </button>
         <div class="nav__items">
-          <button class="nav__btn nav__btn_icon_exit">
+          <button
+            data-message="Close navbar menu"
+            class="nav__btn nav__btn_icon_exit"
+          >
+            <span class="visually-hidden-el">Close navbar menu</span>
             <i class="las la-times"></i>
           </button>
           <ul class="nav__items-list">
             <li>
-              <a href="#about" class="link nav__link">About</a>
+              <a href="#about" class="link nav__link" autofocus>About</a>
             </li>
             <li><a href="#tweets" class="link nav__link">Tweets</a></li>
             <li><a href="#articles" class="link nav__link">Articles</a></li>
@@ -315,6 +324,9 @@
                 alt=""
                 class="merch__img"
               />
+              <span class="visually-hidden-el"
+                >Go to merch page to view merch</span
+              >
             </a>
           </li>
           <li>
@@ -324,6 +336,9 @@
                 alt=""
                 class="merch__img"
               />
+              <span class="visually-hidden-el"
+                >Go to merch page to view merch</span
+              >
             </a>
           </li>
           <li>
@@ -333,6 +348,9 @@
                 alt=""
                 class="merch__img"
               />
+              <span class="visually-hidden-el"
+                >Go to merch page to view merch</span
+              >
             </a>
           </li>
           <li>
@@ -342,6 +360,9 @@
                 alt=""
                 class="merch__img"
               />
+              <span class="visually-hidden-el"
+                >Go to merch page to view merch</span
+              >
             </a>
           </li>
         </ul>
