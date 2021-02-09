@@ -10,7 +10,7 @@ html {
 
   font-family: 'Fjalla One', sans-serif;
   color: #fff;
-  background-color: rgba(16, 14, 14, 0.9);
+  background-color: var(--main-color);
 }
 
 @media (min-width: 1440px) {
