@@ -3,17 +3,7 @@ import {
   navMenuButton,
   navExitButton,
   navItems,
-  navLinks,
 } from '../constants/index';
-
-function changeNavItemsTabIndex(index) {
-  if (navExitButton.tabIndex.toString() !== index.toString()) {
-    navLinks.forEach((link) => {
-      link.tabIndex = index;
-    });
-    navExitButton.tabIndex = index;
-  }
-}
 
 function handlePageClick(e) {
   const el = e.target;
@@ -32,22 +22,12 @@ function handlePageClick(e) {
 function openNavMenu() {
   navItems.classList.add('nav__items_show');
   pageBackground.addEventListener('click', handlePageClick);
-  changeNavItemsTabIndex(0);
 }
 
 function closeNavMenu() {
   navItems.classList.remove('nav__items_show');
   pageBackground.removeEventListener('click', handlePageClick);
-  changeNavItemsTabIndex(-1);
 }
 
-function handleScreenChange() {
-  if (!navItems.classList.contains('nav__items_show')) {
-    changeNavItemsTabIndex(document.body.offsetWidth < 1024 ? -1 : 0);
-  }
-}
-
-handleScreenChange();
 navMenuButton.addEventListener('click', openNavMenu);
 navExitButton.addEventListener('click', closeNavMenu);
-window.addEventListener('resize', handleScreenChange);

@@ -2,6 +2,7 @@
 .nav_location_merch .nav__items_show {
   width: 100%;
   right: 0;
+  visibility: visible;
 }
 
 @media (min-width: 768px) {
