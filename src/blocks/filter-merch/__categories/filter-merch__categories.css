@@ -7,20 +7,12 @@
   display: flex;
   overflow: auto;
   position: relative;
-  scrollbar-width: thin;
-  scrollbar-color: #fff rgba(243, 153, 153, 0);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .filter-merch__categories::-webkit-scrollbar {
-  height: 5px;
-}
-
-.filter-merch__categories::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0);
-}
-
-.filter-merch__categories::-webkit-scrollbar-thumb {
-  background-color: #fff;
+  display: none;
 }
 
 @media (min-width: 768px) {
