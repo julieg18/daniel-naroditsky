@@ -2,7 +2,7 @@
   background-color: var(--main-color);
   width: 100%;
   box-sizing: border-box;
-  padding: 8px 12px 0;
+  padding: 8px 12px;
   box-shadow: 0 0 10px 5px #000;
   margin-top: 16px;
   scrollbar-width: thin;
