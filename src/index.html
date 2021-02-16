@@ -26,11 +26,35 @@
         <button
           data-message="Open navbar menu"
           class="nav__btn nav__btn_icon_menu"
-          autofocus
         >
           <span class="visually-hidden-el">Open navbar menu</span>
           <i class="las la-bars"></i>
         </button>
+        <div role="dialog" aria-label="Nav Menu" class="nav__items">
+          <button
+            data-message="Close navbar menu"
+            class="nav__btn nav__btn_icon_exit"
+          >
+            <span class="visually-hidden-el">Close navbar menu</span>
+            <i class="las la-times"></i>
+          </button>
+          <ul class="nav__items-list">
+            <li>
+              <a href="#about" class="link nav__link">About</a>
+            </li>
+            <li><a href="#tweets" class="link nav__link">Tweets</a></li>
+            <li><a href="#articles" class="link nav__link">Articles</a></li>
+            <li>
+              <a href="#tweets-articles" class="link nav__link"
+                >Tweets/Articles</a
+              >
+            </li>
+            <li><a href="#videos" class="link nav__link">Videos</a></li>
+            <li><a href="#books" class="link nav__link">Books</a></li>
+            <li><a href="#merch" class="link nav__link">Merch</a></li>
+            <li><a href="#contact" class="link nav__link">Contact Me</a></li>
+          </ul>
+        </div>
         <div class="nav__items">
           <button
             data-message="Close navbar menu"
@@ -41,7 +65,7 @@
           </button>
           <ul class="nav__items-list">
             <li>
-              <a href="#about" class="link nav__link" autofocus>About</a>
+              <a href="#about" class="link nav__link">About</a>
             </li>
             <li><a href="#tweets" class="link nav__link">Tweets</a></li>
             <li><a href="#articles" class="link nav__link">Articles</a></li>
@@ -69,9 +93,7 @@
             height="500"
             class="header__img"
             src="./images/header-phone.jpg"
-            alt='A chessboard with
-          a image of Daniel Naroditsky in the center, with the words, "Daniel
-          Naroditsky Grand Master" across it'
+            alt='A chessboard with an image of the former chess world champion, Gary Kasparov, teaching Daniel Naroditsky as a child in the center. The words, "Daniel Naroditsky Grand Master" are written across the chessboard.'
           />
         </picture>
         <div class="header__img-border"></div>
@@ -96,7 +118,7 @@
             <h2 class="section-heading">Tweets</h2>
             <div tabindex="0" class="tweets__twitter-timeline">
               <a
-                class="twitter-timeline lazyload"
+                class="twitter-timeline lazyload link"
                 data-script="https://platform.twitter.com/widgets.js"
                 data-theme="dark"
                 data-chrome="transparent"
@@ -109,48 +131,48 @@
           <section id="articles" class="articles">
             <h2 class="section-heading">Articles</h2>
             <ul class="articles__list">
-              <li class="link articles__article-container">
+              <li class="articles__article-container">
                 <a
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="articles__article"
+                  class="articles__article link"
                   >Name Of Article</a
                 >
               </li>
-              <li class="link articles__article-container">
+              <li class="articles__article-container">
                 <a
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="articles__article"
+                  class="articles__article link"
                   >Name Of Article</a
                 >
               </li>
-              <li class="link articles__article-container">
+              <li class="articles__article-container">
                 <a
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="articles__article"
+                  class="articles__article link"
                   >Name Of Article</a
                 >
               </li>
-              <li class="link articles__article-container">
+              <li class="articles__article-container">
                 <a
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="articles__article"
+                  class="articles__article link"
                   >Name Of Article</a
                 >
               </li>
-              <li class="link articles__article-container">
+              <li class="articles__article-container">
                 <a
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
-                  class="articles__article"
+                  class="articles__article link"
                   >Name Of Article</a
                 >
               </li>

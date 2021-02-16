@@ -4,6 +4,10 @@ html {
   scroll-behavior: smooth;
 }
 
+*:focus {
+  outline: double #fff 3px;
+}
+
 .page {
   --main-color: #100e0e;
   --secondary-color: #5bc0eb;
