@@ -14,6 +14,10 @@
   .nav__items {
     height: auto;
   }
+
+  .nav__items[role='dialog'] {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {

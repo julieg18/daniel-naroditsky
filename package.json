@@ -46,6 +46,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.8.2",
+    "dom-focus-lock": "^1.0.4",
     "lazysizes": "^5.3.0"
   }
 }

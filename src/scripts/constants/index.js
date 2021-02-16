@@ -15,9 +15,16 @@ const faviconSize32IconLink = document.querySelector(
 const safariSvgIconLink = document.querySelector('link[rel="mask-icon"]');
 
 const pageBackground = document.querySelector('.page__background');
+const navItems = document.querySelector('.nav__items:not([role="dialog"])');
+const navItemsDialog = document.querySelector('.nav__items[role="dialog"]');
 const navMenuButton = document.querySelector('.nav__btn_icon_menu');
-const navExitButton = document.querySelector('.nav__btn_icon_exit');
-const navItems = document.querySelector('.nav__items');
+const navExitButton = navItems.querySelector('.nav__btn_icon_exit');
+const navItemsDialogExitBtn = navItemsDialog.querySelector(
+  '.nav__btn_icon_exit',
+);
+const navItemsDialogLinks = Array.from(
+  navItemsDialog.querySelectorAll('.nav__link'),
+);
 
 const videosNewVideos = Array.from(
   document.querySelectorAll('.videos__list_group_new .video'),
@@ -39,6 +46,9 @@ export {
   navMenuButton,
   navExitButton,
   navItems,
+  navItemsDialogExitBtn,
+  navItemsDialog,
+  navItemsDialogLinks,
   videosNewVideos,
   videosPopularVideos,
 };
